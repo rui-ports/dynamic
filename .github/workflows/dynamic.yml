@@ -24,4 +24,7 @@ jobs:
          run: ls
          
        - name: Start Shell Script
-         run: sudo ./dynamic.sh
+         run: |
+              sudo chmod+x dynamic.sh
+              sudo ./dynamic.sh
+    
